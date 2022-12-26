@@ -1,0 +1,248 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* MAIN BLOCK */
+
+.main_block{
+    width: 100%;
+    padding-bottom: 105px;
+}
+
+.main_block .container{
+    width: 943px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.main_block .container header{
+    width: 100%;
+    border-bottom: 1px solid #828282;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.main_block .container header menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_block .container header menu li{
+
+}
+
+.main_block .container header menu li a{
+    font-size: 15px;
+    color: #828282;
+    font-weight: 600;
+}
+
+.main_block .container header menu li a:hover{
+    color: #000;
+}
+
+.main_block .container article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main_block .container article .logo{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.main_block .container article p{
+    font-weight: 500;
+}
+
+.main_block .container article .langs{
+    transform: rotate(-90deg) translateY(25px);
+}
+
+.main_block .container article .langs a{
+    font-weight: 500;
+}
+
+.main_block .container .my_photo{
+    width: 100%;
+    height: 387px;
+    background: url(../img/my_photo.jpg) no-repeat center/cover;
+}
+
+
+.about_me{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    background: #F6F6F6;
+}
+
+.about_me .container{
+    width: 943px;
+    margin: 0 auto;
+}
+
+.about_me .container h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.about_me .container p{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.my_skills{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.my_skills .container{
+    width: 943px;
+    margin: 0 auto;
+}
+
+.my_skills .container h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.my_skills .container p{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.my_skills .container section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my_skills .container section nav{
+    text-align: center;
+}
+
+.my_skills .container section nav > img{
+    margin-bottom: 15px;
+}
+
+.my_skills .container section nav h2{
+    margin-bottom: 20px;
+}
+
+/* portfolio */
+
+
+.portfolio{
+    width: 100%;
+    padding-top: 112px;
+    padding-bottom: 96px;
+    background-color:  #F6F6F6;
+}
+
+.portfolio .container{
+    width: 943px;
+    margin: 0 auto;
+}
+
+.portfolio .container h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 47px;
+}
+
+.portfolio .container img{
+    margin-bottom: 44px;
+}
+
+.portfolio .container div{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.portfolio .container div a{
+    text-decoration: underline;
+}
+
+
+.contacts{
+    width: 100%;
+    padding-top: 114px;
+    padding-bottom: 100px;
+}
+
+
+.contacts .container{
+    width: 943px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts .container h1{
+    /* text-align: center; */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contacts .container p{
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.contacts .container button{
+    background: #000;
+    color:#fff;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+    margin-bottom: 85px;
+}
+
+.contacts .container .socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 342px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+
+.contacts .container .txt{
+    color: red;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #828282;;
+}
+
+
+/* https://www.figma.com/file/YsfjeAFFHecZ8KV8AMDu7t0J/Templates-%233.-More-on-Figma.info?node-id=1%3A2 */
+
+
+
